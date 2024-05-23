@@ -172,4 +172,9 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
+  const now = new Date();
+
+  // Imprimir la fecha y la hora completas
+  console.log("Current time:");
+  console.log(now.toString());
 });
